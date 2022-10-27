@@ -6,9 +6,9 @@
     - [**List of Peripherals**](#peri)<br>
 
 **Related Documents:**<br>
-    - [apispec.md](blob/main/Docs/apispec.md)  - API Specification with Sample Programs <br> 
+    - [apispec.md](Docs/apispec.md)  - API Specification with Sample Programs <br> 
     - [newdriver](../pccore/README.md#drv)  - How to Create a New Peripheral <br> 
-    - [design.txt](blob/main/Docs/design.txt)  - pcdaemon Internal Design  <br> 
+    - [design.txt](Docs/design.txt)  - pcdaemon Internal Design  <br> 
 
 <br>
 
