@@ -2,7 +2,7 @@
 TOUCH4
 
 The touch4 peripheral provides four capacitive touch inputs.
-Inputs have separate theshold values expressed as a percentage
+Inputs have separate threshold values expressed as a percentage
 drop from the average value over the last minute.
 
 

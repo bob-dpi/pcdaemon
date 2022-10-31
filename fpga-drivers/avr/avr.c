@@ -740,7 +740,7 @@ static void packet_hdlr(
                     // change to EEPROM read state
                     pctx->count = 0;
                     pctx->taskState = 1;
-                    // Fall throught to send first request.
+                    // Fall through to send first request.
 
                 case 1:
                     if (pctx->count < pctx->imsz) {
@@ -861,7 +861,7 @@ static void packet_hdlr(
                     // change to EEPROM read state
                     pctx->taskState = 1;
                     pctx->count = 0;
-                    // Fall throught to send first request.
+                    // Fall through to send first request.
 
                 case 1:
                     if (pctx->count > 0) {

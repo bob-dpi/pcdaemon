@@ -1,7 +1,4 @@
 ```
-bsmith@guin:~/dpdaemon$ dpset tonegen note c4 60 2000
-bsmith@guin:~/dpdaemon$ dpset tonegen melody /home/bsmith/.dot/dpdaemon/melody.txt
-
 The tonegen peripheral can generate audio frequency square
 waves with an adjustable volume.  You can specify the
 frequency as a floating point number or as a music note.
@@ -61,5 +58,6 @@ Examples:
     pcset tonegen note 1000 50 4000
     pcset tonegen note A4 100 100
     pcset tonegen melody /usr/local/share/my_melody.txt
+
 
 ```

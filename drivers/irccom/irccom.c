@@ -320,7 +320,7 @@ static void usercmd(
         }
     }
     else if ((cmd == PCSET) && (rscid == RSC_COMM)) {
-        // Sanity checks for conected and valid channel
+        // Sanity checks for connected and valid channel
         if (pctx->status != ICM_CONNECTED) {
             ret = snprintf(buf, *plen, "Not connected\n");
             *plen = ret;

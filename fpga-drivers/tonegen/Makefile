@@ -25,7 +25,7 @@ INC = ../../include
 LIB = ../../build/lib
 OBJ = ../../build/obj
 
-includes = $(INC)/dpdaemon.h readme.h
+includes = $(INC)/daemon.h readme.h
 
 # define target peripheral/driver here
 object = $(OBJ)/$(peripheral_name).o

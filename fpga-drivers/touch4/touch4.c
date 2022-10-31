@@ -4,7 +4,7 @@
  *  Description: Quad touch sensor input
  *
  *  The FPGA peripheral is simply that of a quad counter (count4).
- *  The code in this driver interpretes the counts to determine a
+ *  The code in this driver interprets the counts to determine a
  *  touch event.
  *
  *  Hardware Registers:

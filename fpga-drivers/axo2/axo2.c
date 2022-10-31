@@ -10,7 +10,8 @@
  *              None
  * 
  *  Resources:
- *              drivlist  - list of driver identification numbersthe FPGA image
+ *              drivlist  - list of driver identification numbers in the FPGA
+ *                          image
  */
 
 /*

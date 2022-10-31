@@ -31,7 +31,7 @@ int tofReadDistance(void);
 
 //
 // Opens a file system handle to the I2C device
-// sets the device continous capture mode
+// sets the device continuous capture mode
 //
 int tofInit(int iChan, int iAddr, int bLongRange);
 

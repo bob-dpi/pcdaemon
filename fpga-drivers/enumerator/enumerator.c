@@ -9,7 +9,8 @@
  *   64: Perilist  - table of 16 16-bit peripheral ID values
  * 
  *  Resources:
- *    drivlist  - list of driver identification numbersthe FPGA image
+ *    drivlist  - list of driver identification numbers in the FPGA
+ *                image
  */
 
 /*

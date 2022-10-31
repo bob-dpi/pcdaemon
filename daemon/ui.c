@@ -133,7 +133,7 @@ void parse_and_execute(UI *pui)
         // Print list of all plug-in if there was no second argument
         // Give description of plug-in if one was specified
         if (cslot == 0) {
-            // edlist without argument -- list all plug-in
+            // pclist without argument -- list all plug-in
             len = snprintf(rply, MXRPLY, "  Slot/Name         Description\n");
             send_ui(rply, len, pui->cn);
             for (islot = 0; islot < MX_SLOT; islot++) {
@@ -158,7 +158,7 @@ void parse_and_execute(UI *pui)
             prompt(pui->cn);
             return;
         }
-        // Second argument to edlist is a plug-in name.  Find it.
+        // Second argument to pclist is a plug-in name.  Find it.
         for (islot = 0; islot < MX_SLOT; islot++) {
             if ((Slots[islot].name != 0) &&
                 (!strcmp(Slots[islot].name, cslot)))

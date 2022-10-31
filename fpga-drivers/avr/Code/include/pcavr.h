@@ -11,7 +11,7 @@
 #include <avr/interrupt.h>
 #include <avr/eeprom.h>
 
-// NOTE: change this value to the number of host register reqired
+// NOTE: change this value to the number of host register required
 #define HOST_REG_QTY 64
 
 // PD7 is the LED port on the AVR daughter card

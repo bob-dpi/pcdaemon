@@ -41,7 +41,7 @@
  *    logic '1' level of the FPGA and is considered dark if the voltage is
  *    still above the logic 1 level.  Sensitivity is controlled by a delay in
  *    reading the inputs.  The longer the delay, the longer the cap has to
- *    discharge.  Sensitiviy is in units of 10us but since the discharge of
+ *    discharge.  Sensitivity is in units of 10us but since the discharge of
  *    a capacitor is exponential the sensitivity is very non-linear. Values
  *    in the range of 5 to 25 seem to work fairly well.
  *      

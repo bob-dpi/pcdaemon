@@ -8,7 +8,8 @@
  *              None
  * 
  *  Resources:
- *              drivlist  - list of driver identification numbersthe FPGA image
+ *              drivlist  - list of driver identification numbers in the FPGA
+ *                          image
  */
 
 /*
@@ -200,7 +201,7 @@ static void packet_hdlr(
     STX2DEV *pctx;       // our local info
     RSC     *prsc;       // pointer to this packet's resource
     char     swstate[9]; // ASCII value of switch state "xx\n"
-    int      switchlen;  // #chars in switchs, should be 3
+    int      switchlen;  // #chars in swstate, should be 3
     int      i;          // loop counter
 
     pctx = (STX2DEV *)(pslot->priv);  // Our "private" data is a STX2DEV

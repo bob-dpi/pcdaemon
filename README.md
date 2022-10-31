@@ -90,7 +90,7 @@ and stay in the foreground.
     pcdaemon -efdv3 -s /dev/ttyUSB0
 ```
 
-A typical init script invocation would usually let pcdaeom become
+A typical init script invocation would usually let pcdaemon become
 a real daemon and might turn on the real-time extensions.
 ``` 
     /usr/local/bin/pcdaemon -r
@@ -170,7 +170,7 @@ of the quadrature decoder peripheral.
     ~% pclist quad2
 
 *Five commands*: If the above examples make sense you may consider
-youself an expert on the pcdaemon API.  It really is that simple.
+yourself an expert on the pcdaemon API.  It really is that simple.
 
 <br>
 <br>
@@ -228,7 +228,7 @@ information on these peripherals.
 |[pwmin4](fpga-drivers/pwmin4/readme.txt)| Quad PWM input |
 |[rtc](fpga-drivers/rtc/readme.txt)| Real-time clock (hw) |
 |[avr](fpga-drivers/avr/readme.txt)| AVR Microcontroller (hw) |
-|[pulse2](fpga-drivers/pulse2/readme.txt)| Dual Pulse Generato |
+|[pulse2](fpga-drivers/pulse2/readme.txt)| Dual Pulse Generator |
 | | |
 ***FPGA Board I/O***
 |[axo2](fpga-drivers/axo2/readme.txt) | Axelsys Mach XO2 |

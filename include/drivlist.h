@@ -45,7 +45,7 @@ struct PDESC {
           // existing Verilog and change only the Linux driver.  The
           // touch4 is an example.  The underlying peripheral is just
           // four counters (count4) but the Linux loadable module 
-          // interpretes the counts in such a was as to detect touch
+          // interprets the counts in such a was as to detect touch
           // events.
     char *incname;
 

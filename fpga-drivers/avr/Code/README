@@ -17,7 +17,7 @@ to the DP AVR peripheral (see the Demand Peripherals wiki for more details):
     
   samples
     Contains the following sample AVR application code that illustrates the usage 
-    of the AVR-to-pcdaemon communitation facilities:
+    of the AVR-to-pcdaemon communication facilities:
     
     led
       This application is a very basic example of an LED flashing application 

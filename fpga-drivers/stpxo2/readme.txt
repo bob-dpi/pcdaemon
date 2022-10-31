@@ -43,7 +43,7 @@ Characters for the text message must be taken from the following set:
         o L r h H - u
         (space) (underscore) (decimal point)
 The characters you enter are converted to eight segment values
-which are visable in the segments resource described below.  Examples
+which are visible in the segments resource described below.  Examples
 of use include:
         pcset 0 display 8.8.         # All segments on
         pcset 0 display '  '         # Two spaces = all segments off
